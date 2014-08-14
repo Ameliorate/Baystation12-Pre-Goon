@@ -840,7 +840,7 @@
 	var/h_filter = 0.0
 	var/s_fire = 0.0
 	var/see_face = 1.0
-	var/color = null
+	var/item_color = null
 	var/brute_protect = 0
 	var/fire_protect = 0
 	var/chem_protect = 0
@@ -1308,127 +1308,127 @@ obj/item/weapon/clothing/suit/labcoat
 	desc = "It has a religion rank stripe on it."
 	name = "Black Jumpsuit"
 	icon_state = "bl_suit"
-	color = "chapblack"
+	item_color = "chapblack"
 /obj/item/weapon/clothing/under/sl_suit
 	desc = "A very amish looking suit"
 	name = "Amish Suit"
 	icon_state = "sl_suit"
-	color = "sl_suit"
+	item_color = "sl_suit"
 /obj/item/weapon/clothing/under/blue
 	name = "Blue Jumpsuit"
 	icon_state = "b_suit"
-	color = "blue"
+	item_color = "blue"
 
 /obj/item/weapon/clothing/under/bartender
 	name = "Suit"
 	icon_state = "ba_suit"
-	color = "ba_suit"
+	item_color = "ba_suit"
 /obj/item/weapon/clothing/under/janitor
 	desc = "Official clothing of the station's poopscooper."
 	name = "Janitor's Jumpsuit"
 	icon_state = "janitor"
-	color = "janitor"
+	item_color = "janitor"
 	chem_protect = 5
 /obj/item/weapon/clothing/under/green
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "green"
+	item_color = "green"
 /obj/item/weapon/clothing/under/hor_green
 	desc = "It has a Head of Research rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "horgreen"
+	item_color = "horgreen"
 /obj/item/weapon/clothing/under/hop_green
 	desc = "It has a Head of Personnel rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "hopgreen"
+	item_color = "hopgreen"
 /obj/item/weapon/clothing/under/hos_green
 	desc = "It has a Head of Security rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "hosgreen"
+	item_color = "hosgreen"
 /obj/item/weapon/clothing/under/hom_green
 	desc = "It has a Head of Maintenance rank stripe on it."
 	name = "Green Jumpsuit"
 	icon_state = "g_suit"
-	color = "homgreen"
+	item_color = "homgreen"
 
 /obj/item/weapon/clothing/under/grey
 	name = "Grey Jumpsuit"
 	icon_state = "gy_suit"
-	color = "grey"
+	item_color = "grey"
 
 /obj/item/weapon/clothing/under/orange
 	name = "Orange Jumpsuit"
 	icon_state = "o_suit"
-	color = "orange"
+	item_color = "orange"
 
 /obj/item/weapon/clothing/under/pink
 	name = "Pink Jumpsuit (F)"
 	icon_state = "p_suit"
-	color = "pink"
+	item_color = "pink"
 
 /obj/item/weapon/clothing/under/red
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "red"
+	item_color = "red"
 /obj/item/weapon/clothing/under/forensics_red
 	desc = "It has a Forensics rank stripe on it."
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "forensicsred"
+	item_color = "forensicsred"
 /obj/item/weapon/clothing/under/firefighter_red
 	desc = "It has a Fire Fighter rank stripe on it."
 	name = "Red Jumpsuit"
 	icon_state = "r_suit"
-	color = "ffred"
+	item_color = "ffred"
 /obj/item/weapon/clothing/under/network
 	desc = "It has Network Technician rank stripes on it"
 	name = "Network Technician Suit"
 	icon_state = "network"
-	color = "network"
+	item_color = "network"
 /obj/item/weapon/clothing/under/white
 	desc = "Made of a special fiber that gives special protection against biohazards."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "white"
+	item_color = "white"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/genetics_white
 	desc = "Made of a special fiber that gives special protection against biohazards. Has a genetics rank stripe on it."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "geneticswhite"
+	item_color = "geneticswhite"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/toxins_white
 	desc = "Made of a special fiber that gives special protection against biohazards. Has a toxins rank stripe on it."
 	name = "White Jumpsuit"
 	icon_state = "w_suit"
-	color = "toxinswhite"
+	item_color = "toxinswhite"
 	fb_filter = 5.0
 	chem_protect = 5
 /obj/item/weapon/clothing/under/yellow
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "yellow"
+	item_color = "yellow"
 /obj/item/weapon/clothing/under/atmospherics_yellow
 	desc = "It has an Atmospherics rank stripe on it."
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "atmosyellow"
+	item_color = "atmosyellow"
 /obj/item/weapon/clothing/under/engineering_yellow
 	desc = "It has an Engineering rank stripe on it."
 	name = "Yellow Jumpsuit"
 	icon_state = "y_suit"
-	color = "engineyellow"
+	item_color = "engineyellow"
 
 /obj/item/weapon/clothing/under/darkgreen
 	desc = "It has a Captains rank stripe on it."
 	name = "Dark Green Jumpsuit"
 	icon_state = "dg_suit"
-	color = "darkgreen"
+	item_color = "darkgreen"
 
 #define MAXCOIL 30
 /obj/item/weapon/cable_coil
@@ -1680,11 +1680,11 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/implant
 	name = "implant"
 	var/implanted = null
-	var/color = "b"
+	var/item_color = "b"
 /obj/item/weapon/implant/freedom
 	name = "freedom"
 	var/uses = 1.0
-	color = "r"
+	item_color = "r"
 	var/activation_emote = "chuckle"
 
 /obj/item/weapon/implant/tracking
@@ -2026,7 +2026,7 @@ obj/item/weapon/clothing/suit/labcoat
 /obj/item/weapon/paint
 	name = "Paint Can"
 	icon_state = "paint_neutral"
-	var/color = "neutral"
+	var/item_color = "neutral"
 	s_istate = "paintcan"
 	w_class = 3.0
 /obj/item/weapon/paper
@@ -2876,7 +2876,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 	icon = 'canister.dmi'
 	density = 1
 	maximum = 1.3E8
-	var/color = "blue"
+	var/item_color = "blue"
 	t_status = 3.0
 	t_per = 50.0
 	c_per = 50.0
@@ -2890,7 +2890,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/anesthcanister
 	name = "Canister: \[N2O\]"
 	icon_state = "redws"
-	color = "redws"
+	item_color = "redws"
 /obj/machinery/atmoalter/canister/n2canister
 	name = "Canister: \[N2\]"
 	icon_state = "red"
@@ -2901,7 +2901,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/poisoncanister
 	name = "Canister \[Plasma (Bio)\]"
 	icon_state = "orange"
-	color = "orange"
+	item_color = "orange"
 	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/co2canister
 	name = "Canister \[CO2\]"
@@ -2917,12 +2917,12 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/vat/plasmavat
 	name = "Vat \[Plasma (bio)\]"
 	icon_state = "vatorange"
-	color = "vatorange"
+	item_color = "vatorange"
 	flags = FPRINT | PLASMAGUARD
 /obj/machinery/atmoalter/canister/vat/oxygenvat
 	name = "Vat O2"
 	icon_state = "vatblue"
-	color = "vatblue" // thats totally a existing color right?
+	item_color = "vatblue" // thats totally a existing color right?
 
 
 
@@ -2930,7 +2930,7 @@ Total SMES charging rate should not exceed total power generation rate, or an ov
 /obj/machinery/atmoalter/canister/emptycanister
 	name = "Canister \[Custom\]"
 	icon_state = "violet"
-	color = "violet"
+	item_color = "violet"
 	filled = 0
 
 /obj/machinery/atmoalter/heater
